@@ -89,45 +89,33 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      I utilized a javascript framework to create a Schedule Visualizer in 3D.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Three Dimensional Schedule Visualizer
+        link: "https://genlikan.github.io/cs460student/FinalProject/CS460_Final_Project_Report_genlikan.pdf"
+        authors: Jacob Zeng Yew Yoon
+        conference: University of Massachusetts Boston, 2019
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python & Machine Learning
+        level: 80%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: Javascript
+        level: 76%
 
       - name: HTML5 & CSS
+        level: 66%
+
+      - name: SQL & Relational Databases
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Beatboxing
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Adobe Premiere pro 2020
         level: 60%
 
 footer: >
