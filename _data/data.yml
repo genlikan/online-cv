@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: Jacobyoonzengyew@gmail.com
+    email: jacobyoonzengyew@gmail.com
     phone: 857 701 0537
     website: genlikan.github.io #do not add http://
     linkedin: jacob-zy-yoon
@@ -69,29 +69,29 @@ certifications:
       company: Coursera
       details: 
 
-    - cert: Technical Support Fundamentals - Google Certificate
+    - cert: Technical Support Fundamentals
       time: July 2020
-      company: Coursera
+      company: Coursera - Google Certificate
       details: 
 
-    - cert: The Bits and Bytes of Computer Networking - Google Certificate
+    - cert: The Bits and Bytes of Computer Networking 
       time: July 2020
-      company: Coursera
+      company: Coursera - Google Certificate
       details: 
 
-    - cert: Operating Systems and You; Becoming a Power User - Google Certificate
+    - cert: "Operating Systems and You: Becoming a Power User"
       time: July 2020
-      company: Coursera
+      company: Coursera - Google Certificate
       details: 
 
-    - cert: System Administration and IT Infrastructure Services - Google Certificate
+    - cert: System Administration and IT Infrastructure Services
       time: July 2020
-      company: Coursera
+      company: Coursera - Google Certificate
       details: 
 
-    - cert: IT Security; Defense against the digital dark arts - Google Certificate
+    - cert: "IT Security: Defense against the digital dark arts"
       time: July 2020
-      company: Coursera
+      company: Coursera - Google Certificate
       details: 
         
 projects:
