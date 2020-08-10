@@ -64,32 +64,32 @@ education:
       details: Major in Information Archtecture
 
 certifications:
-    - role: Google IT Support Specialization
+    - cert: Google IT Support Specialization
       time: July 2020
       company: Coursera
       details: 
 
-    - role: Technical Support Fundamentals - Google Certificate
+    - cert: Technical Support Fundamentals - Google Certificate
       time: July 2020
       company: Coursera
       details: 
 
-    - role: The Bits and Bytes of Computer Networking - Google Certificate
+    - cert: The Bits and Bytes of Computer Networking - Google Certificate
       time: July 2020
       company: Coursera
       details: 
 
-    - role: Operating Systems and You; Becoming a Power User - Google Certificate
+    - cert: Operating Systems and You; Becoming a Power User - Google Certificate
       time: July 2020
       company: Coursera
       details: 
 
-    - role: System Administration and IT Infrastructure Services - Google Certificate
+    - cert: System Administration and IT Infrastructure Services - Google Certificate
       time: July 2020
       company: Coursera
       details: 
 
-    - role: IT Security; Defense against the digital dark arts - Google Certificate
+    - cert: IT Security; Defense against the digital dark arts - Google Certificate
       time: July 2020
       company: Coursera
       details: 
