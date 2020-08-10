@@ -61,13 +61,33 @@ education:
     - degree: BSc in Information Technology
       university: University of Massachusetts Boston
       time: 2015 - 2019
-      details: |
+      details: Major in Information Archtecture
 
 certifications:
     - role: Google IT Support Specialization
       time: July 2020
       company: Coursera
-      details: |
+      details: 
+
+    - role: Google IT Support Specialization
+      time: July 2020
+      company: Coursera
+      details: 
+
+    - role: Google IT Support Specialization
+      time: July 2020
+      company: Coursera
+      details: 
+
+    - role: Google IT Support Specialization
+      time: July 2020
+      company: Coursera
+      details: 
+
+    - role: Google IT Support Specialization
+      time: July 2020
+      company: Coursera
+      details: 
         
 projects:
     title: Projects
