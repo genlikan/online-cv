@@ -36,24 +36,24 @@ sidebar:
         level: Native
 
     interests:
-      - item: Climbing
-        link:
+      - item: Voice Acting
+        link: 'https://www.youtube.com/watch?v=ZoLXPa4vw9M'
 
-      - item: Snowboarding
-        link:
+      - item: Video Editing
+        link: 'https://www.youtube.com/watch?v=4p62yLZpxKQ'
 
-      - item: Cooking
-        link:
+      - item: Beatboxing
+        link: 'https://youtu.be/RzSDYOtGAu8'
 
 career-profile:
     title: Career Profile
     summary: |
-      Information Architect with experience in designing and building testing front-end and back-end systems. 
-      Looking to utilize expertise and understanding of all aspects of software development to continue professional development.
-      Adept at adapting quickly and excited to work in collaborative and dynamic settings. 
-      Extremely eager to learn,fit in,fit outside the box. 
-      Self-motived and quick to develop new skills as required. 
-      Flexible worktimes and commute is never an issue.
+      Information Architect with experience in designing and building testing front-end and back-end systems.  
+      Looking to utilize expertise and understanding of all aspects of software development to continue professional development.  
+      Adept at adapting quickly and excited to work in collaborative and dynamic settings.  
+      Extremely eager to learn,fit in,fit outside the box.  
+      Self-motived and quick to develop new skills as required.  
+      Flexible worktimes and commute is never an issue.  
 education:
     - degree: BSc in Information Technology
       university: University of Massachusetts Boston
@@ -62,29 +62,20 @@ education:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Recent Projects
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Animal vs Vehicle Classifier - Machine Learning
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Built a machine learning classifier that classifies animals vs vehicles with a 99% accuracy using Python, Google Colab, ResNet and CIFAR-10 dataset"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: 3D Schedule Visualizer
+        link: "#https://genlikan.github.io/ScheduleVisualizer/"
+        tagline: "Created a schedule to visualize time in 3D space using Javascipt and WebGL technology."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: WebGL Showcase Website
+        link: "#https://genlikan.github.io/IT240/"
+        tagline: "A website detailing applications and usage of WebGL Technology."
 
 publications:
     title: Publications
@@ -101,21 +92,21 @@ skills:
 
     toolset:
       - name: Python & Machine Learning
-        level: 80%
+        level: 86%
 
-      - name: Javascript
+      - name: Javascript & WebGL
         level: 76%
 
       - name: HTML5 & CSS
-        level: 66%
+        level: 76%
 
       - name: SQL & Relational Databases
-        level: 95%
+        level: 85%
 
       - name: Beatboxing
         level: 85%
 
-      - name: Adobe Premiere pro 2020
+      - name: Adobe Premiere Pro
         level: 60%
 
 footer: >
