@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -36,6 +36,9 @@ sidebar:
         level: Native
 
     interests:
+      - item: Games
+        link:
+
       - item: Voice Acting
         link: 'https://www.youtube.com/watch?v=ZoLXPa4vw9M'
 
@@ -59,12 +62,18 @@ education:
       university: University of Massachusetts Boston
       time: 2015 - 2019
       details: |
+
+certifications:
+    - cert: Google IT Support Specialization
+      time: July 2020
+      company: Coursera
+      details: |
+        
 projects:
     title: Projects
     intro: >
-      Recent Projects
+      
     assignments:
-
       - title: Animal vs Vehicle Classifier - Machine Learning
         link: "#"
         tagline: "Built a machine learning classifier that classifies animals vs vehicles with a 99% accuracy using Python, Google Colab, ResNet and CIFAR-10 dataset"
@@ -80,7 +89,7 @@ projects:
 publications:
     title: Publications
     intro: |
-      I utilized a javascript framework to create a Schedule Visualizer in 3D.
+      Utilized a javascript framework to create a Schedule Visualizer in 3D.
     papers:
       - title: Three Dimensional Schedule Visualizer
         link: "https://genlikan.github.io/cs460student/FinalProject/CS460_Final_Project_Report_genlikan.pdf"
