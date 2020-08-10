@@ -74,15 +74,15 @@ projects:
     intro: >
       
     assignments:
-      - title: Animal vs Vehicle Classifier - Machine Learning
+      - title: Animal vs Vehicle Classifier - Machine Learning  
         link: "#"
         tagline: "Built a machine learning classifier that classifies animals vs vehicles with a 99% accuracy using Python, Google Colab, ResNet and CIFAR-10 dataset"
 
-      - title: 3D Schedule Visualizer
+      - title: 3D Schedule Visualizer  
         link: "#https://genlikan.github.io/ScheduleVisualizer/"
         tagline: "Created a schedule to visualize time in 3D space using Javascipt and WebGL technology."
 
-      - title: WebGL Showcase Website
+      - title: WebGL Showcase Website  
         link: "#https://genlikan.github.io/IT240/"
         tagline: "A website detailing applications and usage of WebGL Technology."
 
