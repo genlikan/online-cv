@@ -4,16 +4,16 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Jacob Yoon Zeng Yew
-    tagline: Information Architect
+    tagline: Founding Forward Deployed AI Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: jacobyoonzengyew@gmail.com
-    phone: 857 701 0537
+    phone:
     website: genlikan.github.io #do not add http://
     linkedin: jacob-zy-yoon
     github: genlikan
@@ -29,7 +29,7 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: Mandrin Chinese
+      - idiom: Mandarin Chinese
         level: Native
 
       - idiom: Bahasa Melayu
@@ -51,17 +51,61 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Information Architect with experience in designing and building testing front-end and back-end systems.  
-      Looking to utilize expertise and understanding of all aspects of software development to continue professional development.  
-      Adept at adapting quickly and excited to work in collaborative and dynamic settings.  
-      Extremely eager to learn,fit in,fit outside the box.  
-      Self-motived and quick to develop new skills as required.  
-      Flexible worktimes and commute is never an issue.  
+      Founding Forward Deployed AI Engineer at StackAI, an enterprise platform for building agentic AI workflows.
+      I now lead the Forward Deployed Engineering team while still shipping at individual-contributor pace, and I own the
+      platform's integrations catalog end to end. Full-stack across Python/FastAPI, Temporal, PostgreSQL, Next.js/React and
+      AWS, with deep production experience in LLM provider integration and agent orchestration.
+
+experiences:
+    - role: Founding Forward Deployed AI Engineer
+      time: "May 2025 - Present"
+      company: StackAI · now FDE Team Lead & Integrations Lead
+      details: |
+        - First forward deployed engineer; grew the function into a 10-person team that I lead
+        - Ship alongside the team: 100+ merged PRs across 50 integration and platform areas in the first half of 2026
+        - Own the integrations catalog (165+ connectors): connector architecture, auth conventions, error-mapping standards, safe input validation and a live-test bar for every integration
+        - Scaled integration development with multi-agent build tooling; led a refactor that brought 199 actions to the gold standard with 635 tests
+        - Run recurring LLM provider audits across Anthropic, OpenAI, AWS Bedrock and others: live API checks, end-to-end runs and pricing verification
+        - Production engineering: fixed a database connection leak in the FastAPI backend, retired legacy unauthenticated endpoints, supported the move to AWS EKS
+        - Lead the Canvas LMS (LTI) integration and customer-facing engineering for enterprise accounts
+        - Cut backend CI time roughly in half (median 19 to 9 minutes across ~16,500 tests), measured over 300+ runs
+        - Built a weekly harness that tests every model in the LLM catalog through the platform, catching failures before customers do
+        - Redesigned a customer's AI search workflow through controlled experiments: ~25x fewer tokens and ~5x faster, with no quality loss in a blind evaluation
+        - Reliability and security fixes: a circuit breaker for failing triggers, atomic memory saves for concurrent runs, SSRF-safe downloads and blocking unsafe SQL functions
+        - Designed the FDE hiring rubric and an automated technical evaluation pipeline
+
+    - role: AI/ML Engineer
+      time: Nov 2024 - Jun 2025
+      company: MIT Sloan School of Management · Contract
+
+    - role: Information Technology Consultant
+      time: Jan 2022 - Dec 2024
+      company: Harvard Medical School · Contract
+
+    - role: IT Platform Specialist
+      time: Jan 2021 - Jan 2023
+      company: MIT Sloan School of Management · Contract
+
+    - role: COVID-19 Emergency Response Coordinator
+      time: Sep 2020 - Nov 2020
+      company: MIT Sloan School of Management · Contract
+      details: |
+        - Joined for temporary data-entry work, automated months of it in about two hours, and was brought on for the platform role that followed
+
 education:
+    - degree: MS in Data Science
+      university: Wentworth Institute of Technology
+      time: "2024"
+      details: |
+        Graduate focus on machine learning, reinforcement learning and large language models.
+        - Supervised ML: classified 100,000 Sloan Digital Sky Survey objects into galaxies, stars and quasars from spectral features ([GalacticHarmony](https://github.com/genlikan/GalacticHarmony))
+        - Reinforcement learning: trained Unity ML-Agents with curriculum learning to solve procedurally generated mazes ([MazeGenRunner](https://github.com/genlikan/MazeGenRunner))
+        - LLM applications: built an LLM assistant that reads live game state and answers crafting and optimization questions in natural language ([FactorIA](https://github.com/genlikan/FactorIA))
+
     - degree: BSc in Information Technology
       university: University of Massachusetts Boston
       time: 2015 - 2019
-      details: Major in Information Archtecture
+      details: Major in Information Architecture
 
 certifications:
     - cert: Google IT Support Specialization
@@ -97,19 +141,31 @@ certifications:
 projects:
     title: Projects
     intro: >
-      
+
     assignments:
-      - title: Animal vs Vehicle Classifier - Machine Learning  
-        link: "#"
-        tagline: "Built a machine learning classifier that classifies animals vs vehicles with a 99% accuracy using Python, Google Colab, ResNet and CIFAR-10 dataset"
+      - title: FactorIA
+        link: "https://github.com/genlikan/FactorIA"
+        tagline: "LLM assistant for Factorio that reads the player's live inventory and game state, calculates crafting plans and answers questions in natural language."
 
-      - title: 3D Schedule Visualizer  
-        link: "#https://genlikan.github.io/ScheduleVisualizer/"
-        tagline: "Created a schedule to visualize time in 3D space using Javascipt and WebGL technology."
+      - title: LLM Benchmark Harness
+        link:
+        tagline: "CLI for benchmarking hosted LLMs on AWS Bedrock with labeled-fact reasoning tests and per-model reports."
 
-      - title: WebGL Showcase Website  
-        link: "#https://genlikan.github.io/IT240/"
-        tagline: "A website detailing applications and usage of WebGL Technology."
+      - title: Obsidian Canvas Mapper
+        link:
+        tagline: "Obsidian plugin that maps codebase architecture and feature flows into interactive canvases."
+
+      - title: GalacticHarmony
+        link: "https://github.com/genlikan/GalacticHarmony"
+        tagline: "Graduate ML project: classified 100,000 SDSS spectral objects into galaxies, stars and quasars."
+
+      - title: MazeGenRunner
+        link: "https://github.com/genlikan/MazeGenRunner"
+        tagline: "Reinforcement learning: Unity ML-Agents trained with curriculum learning on procedurally generated mazes."
+
+      - title: 3D Schedule Visualizer
+        link: "https://genlikan.github.io/ScheduleVisualizer/"
+        tagline: "Visualizes a schedule in 3D space with JavaScript and WebGL (Three.js)."
 
 publications:
     title: Publications
@@ -125,23 +181,23 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Machine Learning
-        level: 86%
+      - name: Languages
+        details: Python, TypeScript/JavaScript, SQL
 
-      - name: Javascript & WebGL
-        level: 76%
+      - name: Backend
+        details: FastAPI, SQLAlchemy 2.0, Pydantic v2, Temporal, PostgreSQL, Redis
 
-      - name: HTML5 & CSS
-        level: 76%
+      - name: Frontend
+        details: Next.js (App Router), React, TanStack Query, Tailwind, Shadcn UI
 
-      - name: SQL & Relational Databases
-        level: 85%
+      - name: AI / LLM
+        details: Anthropic, OpenAI, AWS Bedrock; agent orchestration, MCP, RAG, LLM evaluation
 
-      - name: Beatboxing
-        level: 85%
+      - name: Infrastructure
+        details: AWS (EKS), Docker, Kubernetes, ArgoCD, GitHub Actions
 
-      - name: Adobe Premiere Pro
-        level: 60%
+      - name: Observability
+        details: Datadog, Sentry, PostHog
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

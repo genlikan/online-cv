@@ -1,0 +1,23 @@
+html { color-scheme: dark; }
+
+a,
+.main-wrapper .section-title,
+.main-wrapper .project-title {
+    color: $accent;
+}
+
+a:hover {
+    color: lighten($accent, 15%);
+}
+
+.main-wrapper {
+    background: #161B22;
+}
+
+.wrapper {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+.skillset .level-bar-inner {
+    background: $accent;
+}
